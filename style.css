@@ -39,3 +39,9 @@ a:focus-visible,button:focus-visible,label:focus-visible{outline:3px solid #c995
 .nav a{white-space:nowrap}.burger{border:0;background:transparent;color:inherit;cursor:pointer;line-height:1;padding:8px;font-family:inherit}
 .info{min-width:0}.info h2{font-size:clamp(24px,3vw,32px);overflow-wrap:break-word}
 @media(max-width:1150px){.header{height:68px}.header .cta{display:none}.burger{display:block;margin-left:auto;font-size:27px}.header .nav{display:none;position:absolute;top:68px;left:0;right:0;background:#fff;flex-direction:column;align-items:stretch;padding:12px 20px 20px;gap:0;border-bottom:1px solid #eee;max-height:calc(100vh - 68px);max-height:calc(100dvh - 68px);overflow-y:auto}.header .nav a{padding:14px 0;border-bottom:1px solid #eee}.mobile-toggle:checked~.nav{display:flex}.header .logo img{width:155px;height:60px}}
+
+/* Consistent SVG benefit icons. */
+.feature .ico{display:flex;align-items:center;justify-content:center;flex-shrink:0;line-height:1}
+.feature .ico svg{display:block;width:29px;height:29px;flex-shrink:0}
+.feature-label{display:block;line-height:1.55}
+.feature .ico{width:48px;height:48px;border-radius:15px;background:#f2e4d6;color:#9a5c34}.feature{gap:15px}@media(max-width:800px){.feature .ico{margin:0 auto 12px}.feature-label{text-align:center}}
